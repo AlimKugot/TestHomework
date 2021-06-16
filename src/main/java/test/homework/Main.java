@@ -42,22 +42,11 @@ public class Main {
             for (File f : Objects.requireNonNull(folder.listFiles())) {
                 switch (f.getName().toLowerCase(Locale.ROOT)) {
                     case "crud.java" -> Crud.test(f, student);
-                    case "user.java" -> User.check(f, student);
-                    case "gift.java" -> Gift.check(f, student);
+                    case "user.java" -> User.test(f, student);
+                    case "gift.java" -> Gift.test(f, student);
                 }
             }
             studentList.put(name, student);
         }
-    }
-
-    static class User {
-        static void check(File f, StudentStatus student) {}
-//        static boolean userFile(File f) {
-//
-//        }
-    }
-
-    static class Gift {
-        static void check(File f, StudentStatus student) {}
     }
 }
