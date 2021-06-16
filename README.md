@@ -1,0 +1,3 @@
+Самый сложный момент заключается в работе с пакетами...
+
+![explain](img/explainIllustration.png)

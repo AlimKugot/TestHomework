@@ -1,0 +1,14 @@
+src/main/resources
+src/test/resources
+
+#Gradle
+/.gradle/
+/build/
+
+#IDEA
+/.idea/
+*.iml
+
+#google
+/tokens/
+/src/main/java/homework
