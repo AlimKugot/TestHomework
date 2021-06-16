@@ -41,7 +41,8 @@ public class Main {
             StudentStatus student = new StudentStatus(name);
             for (File f : Objects.requireNonNull(folder.listFiles())) {
                 switch (f.getName().toLowerCase(Locale.ROOT)) {
-                    case "crud.java" -> Crud.test(f, student);
+                    //todo: class or file?
+                    case "crud.java" -> Crud.test(f.getClass(), student);
                     case "user.java" -> User.test(f, student);
                     case "gift.java" -> Gift.test(f, student);
                 }

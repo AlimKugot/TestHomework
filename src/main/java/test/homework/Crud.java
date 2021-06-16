@@ -8,9 +8,11 @@ import java.util.Locale;
 
 class Crud {
 
-    public static void test(File f, StudentStatus student) {
-        if (f.getName().toLowerCase(Locale.ROOT).equals("crud")) return;
-        Method[] m = f.getClass().getMethods();
+    public static void test(Class<?> clazz, StudentStatus student) {
+        if (clazz.getName().toLowerCase(Locale.ROOT).equals("crud")) return;
+
+//        clazz.setPackage
+        Method[] m = clazz.getMethods();
         int i = 3;
     }
 }
