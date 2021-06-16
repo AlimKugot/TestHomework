@@ -2,7 +2,7 @@ package google;
 
 import java.io.File;
 
-public class Packages {
+class Packages {
     private static final String absolutePath = Download.getAbsolutePath();
     public static final File[] folders = new File(absolutePath).listFiles();
 

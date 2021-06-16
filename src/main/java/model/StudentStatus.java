@@ -1,13 +1,13 @@
 package model;
 
-public class Student {
+public class StudentStatus {
     String name;
 
     String isCrudPassed = "-";
     String isUserPassed = "-";
     String isGiftPassed = "-";
 
-    public Student(String name) {
+    public StudentStatus(String name) {
         this.name = name;
     }
 

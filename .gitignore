@@ -9,6 +9,6 @@ src/test/resources
 /.idea/
 *.iml
 
-#google
+#Private info
 /tokens/
 /src/main/java/homework
